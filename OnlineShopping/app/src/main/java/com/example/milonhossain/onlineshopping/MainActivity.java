@@ -43,6 +43,20 @@ public class MainActivity extends AppCompatActivity {
                 "New Men’s Fashionable Fabrics Sneaker Shoes for Men",2100.00);
         Product Belt = new Product("Belt","https://static-01.daraz.com.bd/original/f352c4f5cbc783a40f9c4ee7d4bbee14.jpg_200x200q80-product.jpg_.webp",
                 "Black Leather Formal Belt For Men",500.50);
+        Product Mobile = new Product("iPhone7","https://images-na.ssl-images-amazon.com/images/I/31aH1WYy-IL._AC_US218_.jpg",
+                "Apple iPhone 7, Verizon Unlocked, 32GB - Rose Gold - (Renewed)",36550.50);
+        Product Mobile1= new Product("iPhone8","https://images-na.ssl-images-amazon.com/images/I/41SAPsD0vUL._AC_US218_.jpg",
+                "Apple iPhone 8, Verizon Unlocked, 256GB - Gray - (Renewed)",46550.50);
+        Product Mobile2 = new Product("Samsung 210","https://images-na.ssl-images-amazon.com/images/I/41lJ6yZtIbL._AC_US218_.jpg",
+                "Samsung Galaxy S10+ Plus G975F GSM Unlocked Smartphone (Renewed) (Prism White, 128GB)",56800.00);
+        Product Payel = new Product("Payel for Woman","https://static-01.daraz.com.bd/p/20661b7376e6aeed21514a994c208e43.jpg",
+                "Golden Metal Anklet (Payel) for Women",1440.50);
+        Product Shirt = new Product("T-Shirt","https://static-01.daraz.com.bd/p/160e300d9f341a0b6d48686b59cd1e4b.jpg",
+                "Shadow White T-shirts",210.00);
+        Product Camera = new Product("DSLR Camera","https://static-01.daraz.com.bd/original/277abb123b844229271e621011a68189.jpg",
+                "5D Mark IV DSLR Camera with 24-105mm IS II USM Lens - 30.4MP - Black",210000.00);
+        Product Suit = new Product("Men Suit","https://static-01.daraz.com.bd/original/b0464bb9cdd14b4beebc8ec9f597d794.jpg",
+                "Royal Blue Polyester Complete Suite For Men",1500.50);
 
         homeproductList.add(watch);
         homeproductList.add(M3band);
@@ -53,6 +67,14 @@ public class MainActivity extends AppCompatActivity {
         homeproductList.add(GlassProctector);
         homeproductList.add(Shoe);
         homeproductList.add(Belt);
+        homeproductList.add(Mobile);
+        homeproductList.add(Mobile1);
+        homeproductList.add(Mobile2);
+        homeproductList.add(Payel);
+        homeproductList.add(Shirt);
+        homeproductList.add(Camera);
+        homeproductList.add(Suit);
+
 
     }
 }
