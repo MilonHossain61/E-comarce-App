@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/shape"
+    >
+        <TextView
+            android:id="@+id/recycle_text1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="142dp"
+            android:layout_marginLeft="142dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="142dp"
+            android:layout_marginRight="142dp"
+            android:padding="05dp"
+            android:text="Belt"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_image1" />
+
+
+    <ImageView
+        android:id="@+id/recycle_image1"
+        android:layout_width="238dp"
+        android:layout_height="144dp"
+
+
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/belt"
+        app:layout_constraintBottom_toTopOf="@+id/recycle_text1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
